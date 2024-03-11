@@ -1,0 +1,12 @@
+package com.DemoProject.cmp.DTO;
+
+public enum AuthStatus {
+
+    LOGIN_SUCCESS,
+    CUSTOMER_REGISTERED_SUCCESS,
+
+    CUSTOMER_ALREADY_EXIST,
+    LOGIN_FAILED,
+
+    CUSTOMER_REGISTERED_FAILED
+}
